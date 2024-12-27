@@ -51,4 +51,10 @@ h1{
     height: 150px;
     border: 1px solid #FAC67A    ;
     border-radius: 50%;
+    gap: 50px;
+}
+.shop-btn1{
+    display: flex;
+    justify-content: center;
+    width: auto;
 }
