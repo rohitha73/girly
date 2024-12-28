@@ -53,8 +53,41 @@ h1{
     border-radius: 50%;
     gap: 50px;
 }
-.shop-btn1{
+.containergrid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.view-more{
     display: flex;
     justify-content: center;
-    width: auto;
+    margin-top: 120px;
+}
+.hotgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.hot-title{
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    color: #FAC67A;
+}
+.imghot{
+    display: flex;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.hot-btn{
+    position: absolute;
+    margin-top: -100px;
+    display: flex;
+    margin-left: 70px;
 }
