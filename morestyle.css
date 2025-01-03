@@ -52,3 +52,34 @@ header{
 .img2{
     width: 10%;
 }
+.carousel{
+    width: 45%;
+}
+.carousel-item{
+    margin: 40px;
+}
+.carousel-control-prev{
+    width: 150px;
+}
+.carousel-control-next{
+    width: 50%;
+}
+.item{
+    display: flex;
+}
+.price{
+    display: flex;
+    font-weight: bolder;
+    gap: 20px;
+    color: #DA498D;
+}
+.price h2{
+    font-weight: bolder;
+}
+.colors{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+
